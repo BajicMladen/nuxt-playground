@@ -72,4 +72,7 @@
     "toml",
     "xml"
   ],
+  "cSpell.words": [
+    "Nuxt"
+  ],
 }

@@ -3,6 +3,9 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss', '@nuxt/eslint', '@nuxtjs/i18n'],
+  app: {
+    pageTransition: { name: 'page', mode: 'out-in' },
+  },
   eslint: {
     config: {
       standalone: false,

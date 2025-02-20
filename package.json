@@ -12,6 +12,7 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
+    "@vue-flow/core": "^1.42.1",
     "nuxt": "^3.15.4",
     "vue": "latest",
     "vue-router": "latest"
